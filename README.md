@@ -4,50 +4,77 @@
 
 ### Turning financial data into actionable intelligence.
 
-**A banking analytics dashboard for understanding customer behavior, risk, value, and opportunities.**
+**A banking customer analytics dashboard that I built to turn customer data into clear, actionable insights.**
 
 <br>
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 
 </div>
 
 ---
 
-## Overview
+## About
 
-The **FinSight Dashboard** provides a centralized view of customer intelligence, helping banking teams understand customer behavior and identify areas that require attention.
+I built the **FinSight Dashboard** as a banking analytics platform designed to help users understand customer behavior and identify where action may be needed.
 
-The dashboard brings key customer metrics and analytical insights together in one interface.
+Instead of displaying customer data as raw numbers, I designed the dashboard to present the most important insights in a simple and easy-to-understand way.
+
+The dashboard focuses on three main areas:
+
+- **Churn Risk** — identifying customers who may be at risk of leaving.
+- **Customer Value** — identifying customers who represent higher business value.
+- **Cross-Sell Opportunities** — identifying customers who may be suitable for additional financial products.
 
 ---
 
-## Dashboard Features
+## Dashboard
 
-### Customer Overview
+The main dashboard gives me an overview of the most important customer intelligence metrics.
 
-Provides a high-level view of the customer base, including:
+It includes:
 
 - Total customers
 - High-risk customers
 - High-value customers
 - Cross-sell opportunities
+- Churn risk distribution
+- Priority actions
+
+The purpose of the dashboard is to make it easier to move from **customer data to business decisions**.
+
+---
+
+## What I Built
+
+I developed the dashboard using **Flutter and Dart**, with **Supabase and PostgreSQL** supporting the backend and data layer.
+
+I worked on the application structure, dashboard interface, customer analytics views, and integration of the data used to generate the insights.
+
+The dashboard brings the different analytics areas together into one interface so that users can quickly understand the current customer landscape.
+
+---
+
+## Key Features
 
 ### Churn Intelligence
 
-Displays customer churn risk and helps identify customers who may require retention attention.
+I implemented customer risk classification into:
 
-Customers are categorized into:
+🟢 **Low Risk**
 
-- 🟢 Low Risk
-- 🟡 Medium Risk
-- 🔴 High Risk
+🟡 **Medium Risk**
+
+🔴 **High Risk**
+
+This allows users to quickly identify customers who may require attention.
 
 ### Customer Value
 
-Provides insight into customer value using indicators such as:
+I included customer value indicators such as:
 
 - Average balance
 - Monthly income
@@ -55,36 +82,41 @@ Provides insight into customer value using indicators such as:
 - Number of products
 - Customer value score
 
-### Cross-Sell Opportunities
+This helps users identify and compare higher-value customer relationships.
 
-Highlights customers who may be suitable for additional financial products based on their customer information and behavioral indicators.
+### Cross-Sell Intelligence
 
-### Priority Actions
+I built the dashboard to highlight potential opportunities for additional financial products based on customer characteristics and behavior.
 
-Helps highlight areas where banking teams may need to focus their attention based on the available customer intelligence.
+### Customer Analysis
+
+I also included customer-level information so that users can move from overall dashboard statistics to individual customer insights.
 
 ---
 
 ## Technology
 
-| Component | Technology |
+| Technology | Purpose |
 |---|---|
-| **Frontend** | Flutter |
-| **Language** | Dart |
-| **Backend** | Supabase |
-| **Database** | PostgreSQL |
+| **Flutter** | Application interface |
+| **Dart** | Application development |
+| **Supabase** | Backend services |
+| **PostgreSQL** | Data storage |
+| **CSV** | Data export |
 
 ---
 
-## Purpose
+## My Approach
 
-FinSight is designed around a simple idea:
+I built FinSight around a simple idea:
 
 > **Data becomes valuable when it leads to a decision.**
 
-The dashboard transforms customer data into a clearer view of:
+Rather than simply displaying information, I wanted the dashboard to help users understand **what the data means and where attention may be needed**.
 
-**Risk → Value → Opportunity → Action**
+The overall flow is:
+
+**Customer Data → Analytics → Insights → Action**
 
 ---
 
@@ -92,7 +124,17 @@ The dashboard transforms customer data into a clearer view of:
 
 🚧 **Active Development**
 
-FinSight was developed as a banking analytics hackathon project and is also part of a software development portfolio.
+I originally developed FinSight as a banking analytics hackathon project, and I am continuing to develop it as part of my software development portfolio.
+
+---
+
+## Built By
+
+**Malvin Nyamhende**
+
+Software Development • Cybersecurity • AI
+
+I built FinSight as a practical project to explore the intersection of **software development, data analytics, and financial technology**.
 
 ---
 
@@ -101,5 +143,7 @@ FinSight was developed as a banking analytics hackathon project and is also part
 ### FinSight
 
 **Turning financial data into actionable intelligence.**
+
+Built with Flutter • Supabase • PostgreSQL
 
 </div>
